@@ -3,29 +3,33 @@
 }
 
 body {
-    background-color: hsl(212, 45%, 89%);
-    font-family: 'Outfit', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
 }
 
 main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    width: 20.31em;
-    height: 32.81em;
+    max-width: 20.31em;
+    max-height: 32.81em;
     background-color: hsl(0, 0%, 100%);
     border-radius: 1em;
 }
 
 img {
-    width: 17.1875em;
-    height: 17.1875em;
+    max-width: 17.1875em;
+    max-height: 17.1875em;
     border-radius: 1em;
-    margin-top: 1em;
+    margin-top: 1.5em;
 }
 
 section {
