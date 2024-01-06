@@ -1,0 +1,47 @@
+*  {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    width: 31.25em;
+    height: 44.25em;
+    margin: 3em auto;
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1.25em;
+    border-radius: 1.25rem;
+}
+
+h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 1.25rem;
+    margin-bottom: 2em;
+}
+
+.hero {
+    padding: 0 5em;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: .5em;
+    color: hsl(218, 44%, 22%)
+}
+
+.hero p {
+    color: hsl(212, 45%, 89%);
+}
